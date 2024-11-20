@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className="animated-header">Welcome to Anurag's Page</h1>
+        <h1 className="animated-header">Welcome to aarti's website</h1>
       </header>
       <main>
         <div className="qr-container">
