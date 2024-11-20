@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { QRCodeCanvas } from 'qrcode.react';
 
 function App() {
   return (
@@ -8,9 +9,16 @@ function App() {
         <h1 className="animated-header">Welcome to Anurag's Page</h1>
       </header>
       <main>
-        <p className="intro-text">
-          Explore this page to see cool React features and animations. 🚀
-        </p>
+        <div className="qr-container">
+          <QRCodeCanvas
+            value="https://anuragcsharp.github.io/nodeTest1/"
+            className="qr-code"
+            bgColor="#ffffff"
+            fgColor="#000000"
+            level="H"
+          />
+          <p>Scan the QR code to visit the page!</p>
+        </div>
       </main>
     </div>
   );
