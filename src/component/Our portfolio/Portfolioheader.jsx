@@ -3,7 +3,7 @@ import React from 'react'
 import heroportfolio from "../../Assets/portofoli.hero.svg"
 import Menu from '../Layout/Menu'
 import Project from '../Home/Project'
-import Footer from '../Layout/Footer'
+//import Footer from '../Layout/Footer'
 
 // import Header from './Header';
 
