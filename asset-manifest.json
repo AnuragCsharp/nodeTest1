@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nodeTest1/static/css/main.c9e1e943.css",
-    "main.js": "/nodeTest1/static/js/main.d0d1942c.js",
+    "main.css": "/nodeTest1/static/css/main.7c6a2d8e.css",
+    "main.js": "/nodeTest1/static/js/main.c8c5a4d9.js",
     "static/js/453.150cd915.chunk.js": "/nodeTest1/static/js/453.150cd915.chunk.js",
     "static/media/portofoli.hero.svg": "/nodeTest1/static/media/portofoli.hero.0d4f760d374e198a96275a9d6af0cd5a.svg",
     "static/media/dev.img.svg": "/nodeTest1/static/media/dev.img.66270216c376f7c7b28833159a7c8ad8.svg",
@@ -27,12 +27,12 @@
     "static/media/footerlogo.svg": "/nodeTest1/static/media/footerlogo.a8135eab6d68e988d3785974842539c4.svg",
     "static/media/logo.svg.svg": "/nodeTest1/static/media/logo.svg.f887f1e8bef6cee1a6a347b593b41bc1.svg",
     "index.html": "/nodeTest1/index.html",
-    "main.c9e1e943.css.map": "/nodeTest1/static/css/main.c9e1e943.css.map",
-    "main.d0d1942c.js.map": "/nodeTest1/static/js/main.d0d1942c.js.map",
+    "main.7c6a2d8e.css.map": "/nodeTest1/static/css/main.7c6a2d8e.css.map",
+    "main.c8c5a4d9.js.map": "/nodeTest1/static/js/main.c8c5a4d9.js.map",
     "453.150cd915.chunk.js.map": "/nodeTest1/static/js/453.150cd915.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9e1e943.css",
-    "static/js/main.d0d1942c.js"
+    "static/css/main.7c6a2d8e.css",
+    "static/js/main.c8c5a4d9.js"
   ]
 }
