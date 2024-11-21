@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { CgMenuRight } from "react-icons/cg";
 import { IoCloseOutline } from "react-icons/io5";
 import foooterimg from "../../Assets/footerlogo.svg";
+import { Link } from "react-router-dom";
 
 
 

@@ -1,5 +1,8 @@
 import React from 'react'
 import footerlogo from "../../Assets/footerlogo.svg"
+import { Link } from "react-router-dom";
+
+
 const Footer = () => {
   return (
     
@@ -11,12 +14,13 @@ const Footer = () => {
             <div className='flex justify-between items-center my-10 '>
                 <p className=''>405 Main St, Suite 712 Houston, Texas 77002</p>
                 <ul className='flex justify-between items-center gap-10'>
-                    <li>Home</li>
-                    <li> About</li>
-                    <li> Team</li>
-                    <li>Project</li>
-                    <li> Contact Us</li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/about">About</Link></li> {/* About now clickable */}
+                <li><Link to="/team">Team</Link></li>
+                <li><Link to="/project">Project</Link></li>
+                <li><Link to="/contact">Contact Us</Link></li>
                 </ul>
+
                 
             </div>
             <div className='flex justify-between items-center text-[#92B2BF]'>

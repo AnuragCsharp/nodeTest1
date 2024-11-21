@@ -15,6 +15,7 @@ import Home from "./component/Home/Home";
 import Portfolioheader from "./component/Our portfolio/Portfolioheader";
 import Menu from "./component/Layout/Menu";
 import Portfolio from "./component/Our portfolio/Portfolio";
+import About from "./component/Home/About"; // Import the About component
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Routes>
         {/* Home folder */}
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} /> {/* Add About route */}
         <Route path="/header" element={<Header />} />
         <Route path="/driven" element={<Driven />} />
         <Route path="/development" element={<Development />} />
@@ -30,6 +32,7 @@ function App() {
         <Route path="/stratgies" element={<Stratgies />} />
         <Route path="/team" element={<Team />} />
         <Route path="/footer" element={<Footer />} />
+        
 
         {/* Layout folder */}
         <Route path="/menu" element={<Menu />} />
