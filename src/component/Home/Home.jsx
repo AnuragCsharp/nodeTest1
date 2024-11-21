@@ -11,7 +11,7 @@ import Footer from '../Layout/Footer';
 
 const Home = () => {
   return (
-    <div id="top">
+    <div>
         <Header />
        
         <section className="w-full">
